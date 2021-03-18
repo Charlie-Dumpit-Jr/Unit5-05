@@ -11,6 +11,5 @@ function solve () {
   num1 = document.getElementById('lenght').value
   num2 = document.getElementById('width').value
   answer = num1 * num2
-  alert(answer)
   document.getElementById('answer').innerHTML = answer
 }
